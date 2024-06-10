@@ -1,0 +1,117 @@
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #21dc72, #0b391e );
+    height: 140px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    color: white; 
+    font-size: x-large;
+    padding-top: 10px; 
+}
+header p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.666);
+    margin: 20px auto;
+    width: 400px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+main {
+    margin: auto;
+    width: 70vw;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.359);
+    border-radius: 0 0 10px 10px;
+    text-align: justify;
+}
+
+main h1 {
+    font-size: x-large;
+}
+
+main p {
+    margin: 10px 0;
+}
+
+picture {
+    margin: auto;
+    width: 60vw;
+}
+
+.versao {
+    background-image: linear-gradient(to right, #b9f6d4, white);
+    margin: 15px 0;
+    color: black;
+    border-radius: 0;
+    padding: 5px;
+    font-size: large;
+}
+
+.font-android {
+    font-family:android;
+    color: #2d8f57;
+}
+
+article li {
+    list-style-type: none;
+}
+
+li::before {
+    content: '✔';
+}
+
+article {
+    background-color: #b3e1c8;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.359);
+}
+
+h2 {
+    background-color: #2d8f57;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+footer {
+    background-color: #0a4122;
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+
+
